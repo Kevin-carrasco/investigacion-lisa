@@ -1,4 +1,4 @@
-# Conocimientos
+# Conocimientos sobre la Ciencia Social Abierta
 
 
 El objetivo último es saber qué conocen los y las académicas sobre la Ciencia Social Abierta. Para lograr esto, este diseño de investigación se enfoca en la construcción de un *estado del arte* que sirva como insumo para la elaboración del estudio. 

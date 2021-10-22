@@ -1,4 +1,4 @@
-# Creencias
+# Percepciones y preferencias sobre la Ciencia Social Abierta
 
 El objetivo último es conocer las creencias que poseen los y las académicas sobre la Ciencia Social Abierta. Para lograr esto, este diseño de investigación se enfoca en la construcción de un *estado del arte* que sirva como insumo para la elaboración del estudio. 
 

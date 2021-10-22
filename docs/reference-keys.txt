@@ -1,6 +1,6 @@
 introducción
 antecedentes
-conocimientos
-creencias
-prácticas
+conocimientos-sobre-la-ciencia-social-abierta
+percepciones-y-preferencias-sobre-la-ciencia-social-abierta
+prácticas-de-los-ylas-investigadores-en-la-ciencia-social-abierta
 conclusión
