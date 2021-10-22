@@ -9,7 +9,7 @@ bibliography: [book.bib, packages.bib, input/bib/lisacoes.bib]
 # biblio-style: apalike
 csl: apa7-singlespace.csl
 link-citations: yes
-description: "Libro colaborativo del Laboratorio de Ciencia Social Abierta"
+description: "Proyecto de investigación del Laboratorio de Ciencia Social Abierta"
 favicon: images/lisa.ico
 cover-image: images/lisa-complete.png
 github-repo: lisa-coes/open-access
