@@ -1,26 +1,21 @@
 # Prácticas de los y las investigadoras en la Ciencia Social Abierta
 
-El objetivo último es conocer el estado del desarrollo de prácticas que poseen los y las académicas sobre la Ciencia Social Abierta. Para lograr esto, este diseño de investigación se enfoca en la construcción de un *estado del arte* que sirva como insumo para la elaboración del estudio. 
+El objetivo último de este apartado es conocer el estado del desarrollo de prácticas que poseen los y las académicas sobre la Ciencia Social Abierta. Para lograr esto, este diseño de investigación se enfoca en la construcción de un *estado del arte* que sirva como insumo para la elaboración del estudio. 
 
-Las principales preguntas a responder en esta sección son:
-
-- ¿Cómo preguntar si alguien ha cometido fraude?
-
-En dos investigaciones se ofrecen incentivos para que los(as) encuestados sean sinceros en sus respuestas. @sacco_grounds_2019 ofrece gift card de $10USD para compras en Amazon y @john_measuring_2012a plantean hacer una donación a alguna obra de caridad dependiendo del grado de "verdad" con que respondan los encuestados.
-
-- ¿De qué manera se han llevado a cabo investigaciones similares a nivel internacional?
+**¿De qué manera se han llevado a cabo investigaciones similares a nivel internacional?**
 
 La mayor cantidad de investigaciones revisadas se enfoca en Prácticas cuestionables de investigación (QRP's), pero también existe un gran número de investigaciones enfocadas en otras problemáticas de la Ciencia Abierta como reproducibilidad, replicabilidad y open data. En menor medida, se aborda directamente si los(as) investigadores realizan prácticas de Ciencia Abierta.
 
-En cuanto a las QRP's, las investigaciones abordan de manera directa si es que los(as) investigadores han realizado algunas de las prácticas cuestionables como falsificar o modificar datos, confirmar hipótesis eliminando datos, no mostrar parte de los resultados de la investigación o no mencionar una organización que (co) financia la investigación, entre otros, mediante el autoinforme en cuestionarios [@motyl_state_2017a; @john_measuring_2012a; @ljubenkovic_survey_2021; @chin_questionable_2021a].
+En cuanto a las QRP's, los estudios revisados abordan de manera directa si es que los(as) investigadores han realizado algunas de las prácticas cuestionables de investigación como falsificar o modificar datos, confirmar hipótesis eliminando datos, no mostrar parte de los resultados de la investigación o no mencionar una organización que (co) financia la investigación, entre otros, mediante el autoinforme en cuestionarios [@rajah-kanagasabai_predicting_2015; @motyl_state_2017a; @john_measuring_2012a; @ljubenkovic_survey_2021; @chin_questionable_2021a].
 
-Sobre el resto de componentes de la Ciencia Abierta, @zhu_openaccess_2020 en su investigación incluye preguntas sobre conductas y actitudes de open data como ¿cuán importante piensas que es dejar los datos de investigación disponibles en línea para uso gratuito?; ¿Ha dejado sus datos de investigación primarios en un repositorio en línea para que otros investigadores los puedan usar? ¿Ha utilizado datos de investigación secundarios de un repositorio en línea que fue recopilado por otros investigadores? ¿Hizo algo para promover los datos de investigación más recientes que dejó en línea para su reutilización?. Por otra parte, dentro del open data, resulta relevante incluir la investigación de @savage_empirical_2009, en que seleccionan una muestra de investigaciones e intentan contactar a los(as) investigadores responsables para conseguir los datos.
+Sobre el resto de componentes de la Ciencia Abierta, @zhu_openaccess_2020 en su investigación incluye preguntas sobre conductas y actitudes de open data como ¿cuán importante piensas que es dejar los datos de investigación disponibles en línea para uso gratuito?; ¿Ha dejado sus datos de investigación primarios en un repositorio en línea para que otros investigadores los puedan usar? ¿Ha utilizado datos de investigación secundarios de un repositorio en línea que fue recopilado por otros investigadores? ¿Hizo algo para promover los datos de investigación más recientes que dejó en línea para su reutilización?. En esta misma línea, @hodonu-wusu_malasyan_2020 aborda la frecuencia con que se comparten datos y bajo qué motivos (por iniciativa propia, por órdenes de quien financia la investigación o por requerimientos de revistas). Por otra parte, dentro del open data, resulta relevante incluir la investigación de @savage_empirical_2009, en que seleccionan una muestra de investigaciones e intentan contactar a los(as) investigadores responsables para conseguir los datos.
 
-En cuanto a replicabilidad y reproducibilidad, la evidencia recopilada es escasa y se enfoca en estudios de meta-análisis [@hardwicke_empirical_2020] o con enfoque cienciométrico [@caballero-rivero_praticas_2019].
+En cuanto a replicabilidad y reproducibilidad, la evidencia recopilada es escasa y se enfoca principalmente en estudios de meta-análisis [@hardwicke_empirical_2020; @sabik_bringing_2021] o con enfoque cienciométrico [@caballero-rivero_praticas_2019]. Así, solo dos investigaciones empíricas incluyen preguntas sobre prácticas de reproducibilidad, en relación con si los(as) investigadores han intentado y fallado en reproducir resultados propios o de alguien más [@hail_reproducibility_2020] y si han tratado de publicar un intento de reproducción [@baker_500_2016a]
 
-Finalmente, sobre las prácticas de Ciencia Abierta, la investigación de @pardomartinez_knowledge_2018 incluye preguntas sobre el uso de herramientas de la Ciencia Abierta, aplicación de elementos de la Ciencia Abierta en proyectos propios de investigación y publicación en contextos de acceso abierto.
+Finalmente, sobre las prácticas de Ciencia Abierta, la investigación de @pardomartinez_knowledge_2018 incluye preguntas sobre el uso de herramientas de la Ciencia Abierta, aplicación de elementos de la Ciencia Abierta en proyectos propios de investigación y publicación en contextos de acceso abierto. Asimismo, otras investigaciones abordan la frecuencia con que los(as) investigadores preregistran estudios, comparten datos, códigos, intentan replicar investigaciones propias y de otros(as) y publican artículos con acceso público [@chin_questionable_2021a] y utilizan redes sociales para promover una investigación [@narayan_scholarly_2018], mientras que la investigación de @lopezcardenas_percepciones_2021 abordan la forma en que los(as) investigadores practican y/o promueven la Ciencia Abierta.
 
+**¿Cómo preguntar si alguien ha cometido fraude?**
 
-
+En dos investigaciones se ofrecen incentivos para que los(as) encuestados sean sinceros en sus respuestas. @sacco_grounds_2019 ofrece gift card de $10USD para compras en Amazon y @john_measuring_2012a plantean hacer una donación a alguna obra de caridad dependiendo del grado de "verdad" con que respondan los encuestados.
 
 
