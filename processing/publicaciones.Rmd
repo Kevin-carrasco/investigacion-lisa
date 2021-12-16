@@ -1,0 +1,129 @@
+---
+title: "Untitled"
+author: "Kevin Carrasco"
+date: "16-12-2021"
+output: html_document
+---
+
+```{r}
+pacman::p_load(readxl, dplyr, haven, ggplot2, forcats)
+
+publicaciones <- read_excel("input/data/original/resumen publicaciones.xlsx")
+```
+
+```{r}
+publicaciones$Anio <- as.numeric(publicaciones$Anio)
+publicaciones$disciplina <- as_factor(publicaciones$disciplina)
+publicaciones$Componente <- as_factor(publicaciones$Componente)
+publicaciones$Pais <- as_factor(publicaciones$Pais)
+```
+
+```{r}
+graph = publicaciones %>%
+  group_by(Componente) %>%
+  summarise(n = n()) %>% arrange(-n)
+```
+
+```{r}
+graph2 = publicaciones %>%
+  group_by(Pais) %>%
+  summarise(n = n()) %>% arrange(-n)
+```
+
+```{r}
+graph3 = publicaciones %>%
+  group_by(Anio) %>%
+  summarise(n = n()) %>% arrange(-Anio)
+```
+
+```{r}
+graph4 = publicaciones %>%
+  group_by(disciplina) %>%
+  summarise(n = n()) %>% arrange(-n)
+```
+
+# Componentes
+
+```{r}
+comp <- graph %>%
+  mutate(name = fct_reorder(Componente, desc(n))) %>%
+  ggplot( aes(x=name, y=n)) +
+  geom_bar(stat="identity", fill="#f68060", alpha=.7, width=.5) +
+  geom_text(aes(label = n),
+            color = "black",
+            hjust = -0.5,
+            position = position_dodge(width = 0),
+            size = 4) +
+  coord_flip() +
+  xlab("Componente") +
+  ylab("Cantidad de investigaciones") +
+  theme_minimal()
+comp
+
+ggsave(comp, file = "output/graphs/componentes.png",device = "png",width = 25,height = 13,dpi = "retina",units = "cm")
+```
+
+# Pais
+
+```{r}
+Pais <- graph2 %>%
+  mutate(name = fct_reorder(Pais, desc(n))) %>%
+  ggplot( aes(x=name, y=n)) +
+  geom_bar(stat="identity", fill="#f68060", alpha=.7, width=.5) +
+  geom_text(aes(label = n),
+            color = "black",
+            hjust = -0.5,
+            position = position_dodge(width = 0),
+            size = 4) +
+  coord_flip() +
+  xlab("Pais") +
+  ylab("Cantidad de investigaciones") +
+  scale_y_continuous(limits = c(0, 10)) +
+  theme_minimal()
+Pais
+
+ggsave(Pais, file = "output/graphs/Pais.png",device = "png",width = 25,height = 13,dpi = "retina",units = "cm")
+```
+
+# Anio
+
+```{r}
+Anio <- graph3 %>%
+  ggplot(aes(x=as_factor(Anio), y=n)) +
+  geom_histogram(stat="identity", fill="#f68060", alpha=.7, width=.5) +
+  geom_text(aes(label = n),
+            color = "black",
+            vjust = -0.5,
+            position = position_dodge(width = 0),
+            size = 4) +
+  xlab("Año") +
+  ylab("Cantidad de investigaciones") +
+  scale_y_continuous(limits = c(0, 7)) +
+  theme_minimal()
+Anio
+
+ggsave(Anio, file = "output/graphs/Anio.png",device = "png",width = 25,height = 13,dpi = "retina",units = "cm")
+```
+
+# Disciplina
+
+```{r}
+disciplina <- graph4 %>%
+  mutate(name = fct_reorder(disciplina, desc(n))) %>%
+  ggplot( aes(x=name, y=n)) +
+  geom_bar(stat="identity", fill="#f68060", alpha=.7, width=.5) +
+  geom_text(aes(label = n),
+            color = "black",
+            hjust = -0.5,
+            position = position_dodge(width = 0),
+            size = 4) +
+  coord_flip() +
+  xlab("Disciplina") +
+  ylab("Cantidad de investigaciones") +
+  theme_minimal()
+disciplina
+
+ggsave(disciplina, file = "output/graphs/disciplina.png",device = "png",width = 25,height = 13,dpi = "retina",units = "cm")
+```
+
+

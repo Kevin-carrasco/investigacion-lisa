@@ -1,5 +1,5 @@
 --- 
-title: "Ciencia Social Abierta"
+title: "Revisión de investigaciones empíricas de conocimientos, prácticas, creencias y actitudes de investigadores sobre Ciencia Abierta"
 # subtitle: "<center>Documento de trabajo</center>"
 # author: "Investigador a cargo: Juan Carlos Castillo <br> Asistente de investigación: Valentina Andrade <br> Pasante: Vanessa Leyton"
 date: "`r format(Sys.Date(), '%d %B %Y')`"

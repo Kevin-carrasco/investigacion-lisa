@@ -1,3 +1,7 @@
+fig:anio
+fig:disciplina
+fig:componente
+fig:pais
 introducción
 antecedentes
 conocimientos-sobre-la-ciencia-abierta
