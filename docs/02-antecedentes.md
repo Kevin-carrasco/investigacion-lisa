@@ -7,21 +7,29 @@ La recopilación de literatura científica fue llevada a cabo a través de porta
 En términos concretos, se revisaron 34 investigaciones empíricas que buscan establecer un panorama general de la Ciencia Abierta en distintos contextos disciplinares mediante encuestas. En el Gráfico N° \@ref(fig:anio) se muestra la disponibilidad de investigaciones según su año de publicación. Así, es posible dar cuenta un aumento considerable en este tipo de investigaciones desde el año 2015.
 
 <div class="figure" style="text-align: center">
-<p class="caption">(\#fig:anio)Cantidad de investigaciones segun año de publicacion.</p><img src="output/graphs/Anio.png" alt="Cantidad de investigaciones segun año de publicacion." width="100%" height="100%" /></div>
+<img src="output/graphs/Anio.png" alt="Cantidad de investigaciones segun año de publicacion." width="100%" height="100%" />
+<p class="caption">(\#fig:anio)Cantidad de investigaciones segun año de publicacion.</p>
+</div>
 
 Dentro de esta revisión de investigaciones empíricas, como se puede observar en el Gráfico N° \@ref(fig:disciplina), seis son específicas del campo de la psicología, mientras que solo tres de ellas se enmarcan en las Ciencias Sociales en general. Asimismo, 14 investigaciones se enfocan en científicos, académicos e investigadores de varias disciplinas al mismo tiempo, mientras que otras 11 abordan disciplinas específicas como la medicina, humanidades o economía.
 
 <div class="figure" style="text-align: center">
-<p class="caption">(\#fig:disciplina)Cantidad de investigaciones segun disciplina.</p><img src="output/graphs/disciplina.png" alt="Cantidad de investigaciones segun disciplina." width="100%" height="100%" /></div>
+<img src="output/graphs/disciplina.png" alt="Cantidad de investigaciones segun disciplina." width="100%" height="100%" />
+<p class="caption">(\#fig:disciplina)Cantidad de investigaciones segun disciplina.</p>
+</div>
 
 En cuanto a los temas o componentes que se abordan sobre la Ciencia Abierta, en el Gráfico N° \@ref(fig:componente) se muestra que cuatro investigaciones abordan este tema como un concepto en general. El resto de investigaciones se centran específicamente en alguno de los subtemas que comúnmente componen la Ciencia Abierta como las prácticas cuestionables de investigación (QRP), la apertura de datos, el acceso abierto o la reproducibilidad.
 
 <div class="figure" style="text-align: center">
-<p class="caption">(\#fig:componente)Cantidad de investigaciones segun componente de ciencia abierta.</p><img src="output/graphs/componentes.png" alt="Cantidad de investigaciones segun componente de ciencia abierta." width="100%" height="100%" /></div>
+<img src="output/graphs/componentes.png" alt="Cantidad de investigaciones segun componente de ciencia abierta." width="100%" height="100%" />
+<p class="caption">(\#fig:componente)Cantidad de investigaciones segun componente de ciencia abierta.</p>
+</div>
 
 Finalmente, en el Gráfico N° \@ref(fig:pais) se muestra que la mayoría de las investigaciones revisadas intenta adquirir una perspectiva internacional del estado de la Ciencia Abierta (10 investigaciones). En segundo lugar se ubica Estados Unidos (8 investigaciones), seguido de Alemania (5 investigaciones). En América Latina solo se revisaron dos investigaciones, realizadas en Colombia y Venezuela.
 
 <div class="figure" style="text-align: center">
-<p class="caption">(\#fig:pais)Cantidad de investigaciones segun pais.</p><img src="output/graphs/Pais.png" alt="Cantidad de investigaciones segun pais." width="100%" height="100%" /></div>
+<img src="output/graphs/Pais.png" alt="Cantidad de investigaciones segun pais." width="100%" height="100%" />
+<p class="caption">(\#fig:pais)Cantidad de investigaciones segun pais.</p>
+</div>
 
 Además, es relevante destacar que debido a que el objetivo de este diseño de investigación es abordar el estado de la Ciencia Abierta en académicos/as de las Ciencias Sociales, según sus percepciones, creencias y prácticas, las investigaciones que siguen la línea de un meta-análisis de la producción científica solo son enunciadas como ejemplo. En este sentido, también resulta relevante mencionar que no son consideradas las investigaciones sobre las perspectivas de editores de revistas [@maggin_journal_2021] y estudios cualitativos mediante entrevistas [@scheliga_putting_2014].

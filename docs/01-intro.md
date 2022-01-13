@@ -7,25 +7,35 @@ En el caso chileno, este fenómeno también se ha posicionado en la agenda cient
 La relevancia de este tipo de investigaciones consiste principalmente en generar el conocimiento necesario para la toma de decisiones por parte de las instituciones gubernamentales y de centros de investigación, así como también para académicos e investigadores que practican la Ciencia Abierta. A partir del estudio del estado de la Ciencia Social Abierta en académicos del país, es posible conocer los principales desafíos y limitaciones que son percibidos por los/as académicos en la implementación de políticas públicas, lineamientos y requerimientos del trabajo dentro de los procesos de investigación. Así, sería posible poner énfasis en estas problemáticas y brindar las herramientas y capacitaciones necesarias para fomentar correctamente el desarrollo de la Ciencia Abierta en sus distintas dimensiones.
 
 <div class="figure" style="text-align: center">
-<p class="caption">(\#fig:baker-1)Percepción de crisis de reproducibilidad en investigadores.</p><img src="images/baker-2016-1.png" alt="Percepción de crisis de reproducibilidad en investigadores." width="50%" height="50%" /></div>
+<img src="images/baker-2016-1.png" alt="Percepción de crisis de reproducibilidad en investigadores. Fuente: @baker_500_2016a" width="50%" height="50%" />
+<p class="caption">(\#fig:baker-1)Percepción de crisis de reproducibilidad en investigadores. Fuente: @baker_500_2016a</p>
+</div>
 
 Por ejemplo, en la investigación de @baker_500_2016a han encontrado que una gran parte de los/as investigadores encuestados perciben que existe una crisis de reproducibilidad en la ciencia (ver Gráfico N° \@ref(fig:baker-1)) y también que una gran parte no puede reproducir una investigación de otros/as investigadores ni las propias (Ver Gráfico N° \@ref(fig:baker-2)). En segundo lugar, tal como se muestra en el Gráfico N° \@ref(fig:lacey), en la investigación de @lacey_open_2020 señalan que aproximadamente un 43% de los/as investigadores australianos encuestados indican que el financiamiento de las investigaciones científicas no es transparente y que aproximadamente un 50% de los/as investigadores indican que la ciencia no es accesible al público. En tercer lugar, en la investigación de @motyl_state_2017a encuentran amplia evidencia de la prevalencia de prácticas cuestionables de investigación en investigadores de psicología, tal como se muestra en el Gráfico N° \@ref(fig:motyl). Finalmente, es relevante mencionar la investigación de @lopezcardenas_percepciones_2021, quienes analizan las percepciones y prácticas de la Ciencia Abierta en Venezuela donde, como se muestra en el Gráfico N°\@ref(fig:lopez), indican las distintas prácticas que realizan los/as investigadores en dicho país.
 
 
 <div class="figure" style="text-align: center">
-<p class="caption">(\#fig:baker-2)Cantidad de investigadores que señalan no poder reproducir una investigación propia o de otros.</p><img src="images/baker-2016-2.png" alt="Cantidad de investigadores que señalan no poder reproducir una investigación propia o de otros." width="50%" height="50%" /></div>
+<img src="images/baker-2016-2.png" alt="Cantidad de investigadores que señalan no poder reproducir una investigación propia o de otros. Fuente: @baker_500_2016a" width="50%" height="50%" />
+<p class="caption">(\#fig:baker-2)Cantidad de investigadores que señalan no poder reproducir una investigación propia o de otros. Fuente: @baker_500_2016a</p>
+</div>
 
 
 <div class="figure" style="text-align: center">
-<p class="caption">(\#fig:lacey)Percepción del grado de transparencia y apertura de investigadores(as) australianos.</p><img src="images/lacey-2020.png" alt="Percepción del grado de transparencia y apertura de investigadores(as) australianos." width="80%" height="80%" /></div>
+<img src="images/lacey-2020.png" alt="Percepción del grado de transparencia y apertura de investigadores(as) australianos. Fuente: @lacey_open_2020" width="80%" height="80%" />
+<p class="caption">(\#fig:lacey)Percepción del grado de transparencia y apertura de investigadores(as) australianos. Fuente: @lacey_open_2020</p>
+</div>
 
 
 <div class="figure" style="text-align: center">
-<p class="caption">(\#fig:motyl)Prevalencia de prácticas cuestionables de investigación.</p><img src="images/motyl-2017-1.png" alt="Prevalencia de prácticas cuestionables de investigación." width="80%" height="80%" /></div>
+<img src="images/motyl-2017-1.png" alt="Prevalencia de prácticas cuestionables de investigación. Fuente: @motyl_state_2017a" width="80%" height="80%" />
+<p class="caption">(\#fig:motyl)Prevalencia de prácticas cuestionables de investigación. Fuente: @motyl_state_2017a</p>
+</div>
 
 
 <div class="figure" style="text-align: center">
-<p class="caption">(\#fig:lopez)Prácticas de Open Science en Venezuela.</p><img src="images/lopez-2021-1.png" alt="Prácticas de Open Science en Venezuela." width="60%" height="60%" /></div>
+<img src="images/lopez-2021-1.png" alt="Prácticas de Open Science en Venezuela. Fuente: @lopezcardenas_percepciones_2021" width="60%" height="60%" />
+<p class="caption">(\#fig:lopez)Prácticas de Open Science en Venezuela. Fuente: @lopezcardenas_percepciones_2021</p>
+</div>
 
 
 De esta forma, a partir de la revisión de literatura de distintas investigaciones, tanto de Ciencias Sociales como investigaciones científicas en general, en el presente informe se pretende dar cuenta de la forma en que han sido llevadas a cabo estas investigaciones, poniendo especial énfasis en los elementos que permitan consolidar la etapa de diseño de esta investigación. En concreto, los principales elementos tomados en consideración tienen que ver con el enmarque disciplinar de cada investigación, el muestreo y población objetivo y con el tipo de preguntas que realizan.
