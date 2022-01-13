@@ -2,7 +2,7 @@
 title: "Revisión de investigaciones empíricas de conocimientos, prácticas, creencias y actitudes de investigadores sobre Ciencia Abierta"
 # subtitle: "<center>Documento de trabajo</center>"
 # author: "Investigador a cargo: Juan Carlos Castillo <br> Asistente de investigación: Valentina Andrade <br> Pasante: Vanessa Leyton"
-date: "16 diciembre 2021"
+date: "13 enero 2022"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib, input/bib/lisacoes.bib]
