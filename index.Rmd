@@ -12,8 +12,8 @@ link-citations: yes
 description: "Proyecto de investigación del Laboratorio de Ciencia Social Abierta"
 favicon: images/lisa.ico
 cover-image: images/lisa-complete.png
-github-repo: lisa-coes/open-access
-url: https://github.com/lisa-coes/open-access
+github-repo: lisa-coes/investigacion-lisa
+url: https://github.com/lisa-coes/investigacion-lisa
 always_allow_html: yes
 ---
 

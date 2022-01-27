@@ -2,7 +2,7 @@
 title: "Revisión de investigaciones empíricas de conocimientos, prácticas, creencias y actitudes de investigadores sobre Ciencia Abierta"
 # subtitle: "<center>Documento de trabajo</center>"
 # author: "Investigador a cargo: Juan Carlos Castillo <br> Asistente de investigación: Valentina Andrade <br> Pasante: Vanessa Leyton"
-date: "13 enero 2022"
+date: "27 enero 2022"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib, input/bib/lisacoes.bib]
@@ -12,8 +12,8 @@ link-citations: yes
 description: "Proyecto de investigación del Laboratorio de Ciencia Social Abierta"
 favicon: images/lisa.ico
 cover-image: images/lisa-complete.png
-github-repo: lisa-coes/open-access
-url: https://github.com/lisa-coes/open-access
+github-repo: lisa-coes/investigacion-lisa
+url: https://github.com/lisa-coes/investigacion-lisa
 always_allow_html: yes
 ---
 
