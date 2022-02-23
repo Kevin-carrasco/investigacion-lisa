@@ -19,45 +19,43 @@ publicaciones$Pais <- as_factor(publicaciones$Pais)
 ```
 
 ```{r}
-graph = publicaciones %>%
-  group_by(Componente) %>%
-  summarise(n = n()) %>% arrange(-n)
+graph = round(prop.table(table(Componente=publicaciones$Componente)),3) %>%
+  as.data.frame()
+graph
 ```
 
 ```{r}
-graph2 = publicaciones %>%
-  group_by(Pais) %>%
-  summarise(n = n()) %>% arrange(-n)
+graph2 = round(prop.table(table(Pais=publicaciones$Pais)),3) %>%
+  as.data.frame()
 ```
 
 ```{r}
-graph3 = publicaciones %>%
-  group_by(Anio) %>%
-  summarise(n = n()) %>% arrange(-Anio)
+graph3 = round(prop.table(table(Anio=publicaciones$Anio)),3) %>%
+  as.data.frame()
 ```
 
 ```{r}
-graph4 = publicaciones %>%
-  group_by(disciplina) %>%
-  summarise(n = n()) %>% arrange(-n)
+graph4 = round(prop.table(table(disciplina=publicaciones$disciplina)),3) %>%
+  as.data.frame()
 ```
 
 # Componentes
 
 ```{r}
 comp <- graph %>%
-  mutate(name = fct_reorder(Componente, desc(n))) %>%
-  ggplot( aes(x=name, y=n)) +
+  mutate(name = fct_reorder(Componente, desc(Freq))) %>%
+  ggplot(aes(x=name, y=Freq)) +
   geom_bar(stat="identity", fill="#f68060", alpha=.7, width=.5) +
-  geom_text(aes(label = n),
+  geom_text(aes(label = paste(round(Freq*100,3),"%")),
             color = "black",
-            hjust = -0.5,
+            hjust = -0.1,
             position = position_dodge(width = 0),
             size = 4) +
+  scale_y_continuous(limits = c(0, 0.4))+
   coord_flip() +
   xlab("Componente") +
-  ylab("Cantidad de investigaciones") +
-  theme_minimal()
+  ylab("Porcentaje de investigaciones") +
+  theme_minimal(base_size = 15)
 comp
 
 ggsave(comp, file = "output/graphs/componentes.png",device = "png",width = 25,height = 13,dpi = "retina",units = "cm")
@@ -67,19 +65,19 @@ ggsave(comp, file = "output/graphs/componentes.png",device = "png",width = 25,he
 
 ```{r}
 Pais <- graph2 %>%
-  mutate(name = fct_reorder(Pais, desc(n))) %>%
-  ggplot( aes(x=name, y=n)) +
+  mutate(name = fct_reorder(Pais, desc(Freq))) %>%
+  ggplot( aes(x=name, y=Freq)) +
   geom_bar(stat="identity", fill="#f68060", alpha=.7, width=.5) +
-  geom_text(aes(label = n),
+  geom_text(aes(label = paste(round(Freq*100,3),"%")),
             color = "black",
-            hjust = -0.5,
+            hjust = -0.1,
             position = position_dodge(width = 0),
             size = 4) +
   coord_flip() +
   xlab("Pais") +
-  ylab("Cantidad de investigaciones") +
-  scale_y_continuous(limits = c(0, 10)) +
-  theme_minimal()
+  ylab("Porcentaje de investigaciones") +
+  scale_y_continuous(limits = c(0, .4)) +
+  theme_minimal(base_size = 15)
 Pais
 
 ggsave(Pais, file = "output/graphs/Pais.png",device = "png",width = 25,height = 13,dpi = "retina",units = "cm")
@@ -89,17 +87,18 @@ ggsave(Pais, file = "output/graphs/Pais.png",device = "png",width = 25,height = 
 
 ```{r}
 Anio <- graph3 %>%
-  ggplot(aes(x=as_factor(Anio), y=n)) +
+  ggplot(aes(x=as_factor(Anio), y=Freq)) +
   geom_histogram(stat="identity", fill="#f68060", alpha=.7, width=.5) +
-  geom_text(aes(label = n),
+  geom_text(aes(label = paste(round(Freq*100,3),"%")),
             color = "black",
             vjust = -0.5,
+            hjust = 0.3,
             position = position_dodge(width = 0),
             size = 4) +
   xlab("Año") +
-  ylab("Cantidad de investigaciones") +
-  scale_y_continuous(limits = c(0, 7)) +
-  theme_minimal()
+  ylab("Porcentaje de investigaciones") +
+  scale_y_continuous(limits = c(0, .4)) +
+  theme_minimal(base_size = 14)
 Anio
 
 ggsave(Anio, file = "output/graphs/Anio.png",device = "png",width = 25,height = 13,dpi = "retina",units = "cm")
@@ -109,18 +108,19 @@ ggsave(Anio, file = "output/graphs/Anio.png",device = "png",width = 25,height = 
 
 ```{r}
 disciplina <- graph4 %>%
-  mutate(name = fct_reorder(disciplina, desc(n))) %>%
-  ggplot( aes(x=name, y=n)) +
+  mutate(name = fct_reorder(disciplina, desc(Freq))) %>%
+  ggplot( aes(x=name, y=Freq)) +
   geom_bar(stat="identity", fill="#f68060", alpha=.7, width=.5) +
-  geom_text(aes(label = n),
+  geom_text(aes(label = paste(round(Freq*100,3),"%")),
             color = "black",
-            hjust = -0.5,
+            hjust = -0.1,
             position = position_dodge(width = 0),
             size = 4) +
   coord_flip() +
   xlab("Disciplina") +
-  ylab("Cantidad de investigaciones") +
-  theme_minimal()
+  ylab("Porcentaje de investigaciones") +
+  scale_y_continuous(limits = c(0, .5)) +
+  theme_minimal(base_size = 14)
 disciplina
 
 ggsave(disciplina, file = "output/graphs/disciplina.png",device = "png",width = 25,height = 13,dpi = "retina",units = "cm")

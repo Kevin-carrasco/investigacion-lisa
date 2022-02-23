@@ -26,7 +26,7 @@ Fichas resumen de los textos revisados
 |**Autor/a/es y fecha de publicación:**|
 |-|
 |Bailey, Hasselback and Karcher (2001)|
-| Palabras clave:**|
+| **Palabras clave:**|
 |Accounting; Ethics; Fraud; Research; Scientific method|
 | **Objetivo general del texto:**|
 |Analizar la prevalencia en la práctica real del subconjunto de violaciones que darían lugar a la introducción de "conocimiento" falso o sin fundamento en la literatura.|
